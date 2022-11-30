@@ -7,8 +7,10 @@ let getLocationButton = document.getElementById("getLocationButton");
 getLocationButton.addEventListener("click", () => {
   loader.style.display = 'block';
   navigator.geolocation.getCurrentPosition((position) => {
-    let lat = position.coords.latitude;
-    let long = position.coords.longitude;
+    //let lat = position.coords.latitude;
+    let lat = 10.99;
+    //let long = position.coords.longitude;
+    let long = 44.34;
 
     getWeatherData(lat, long);
   });
