@@ -19,7 +19,7 @@ var requestOptions = {
   redirect: "follow",
 };
 
-var appid = "*API_Key*";
+var appid = "c5346e78645f4609851bc734b9a51bc6";
 
 /**
  * Fetches Open Weather Data API.
